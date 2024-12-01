@@ -11,7 +11,9 @@ namespace MVC_WebApp.Controllers
         // GET: Demo
         public ActionResult Index()
         {
+        ViewBag.Message="This is Demo";
             return View();
         }
+        
     }
 }
